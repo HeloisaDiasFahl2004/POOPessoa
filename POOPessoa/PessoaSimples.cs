@@ -11,8 +11,8 @@ namespace POOPessoa
         //atributos das classes
             String nome;
             String dataNascimento;
-            int CPF;
-            int telefone;
+            long CPF;
+            long telefone;
 
             public override string ToString()
             {
@@ -26,11 +26,11 @@ namespace POOPessoa
             {
                 this.dataNascimento = dataNascimento;
             }
-            public void setCPF(int CPF)
+            public void setCPF(long CPF)
             {
                 this.CPF = CPF;
             }
-            public void setTelefone(int telefone)
+            public void setTelefone(long telefone)
             {
                 this.telefone = telefone;
             }
@@ -43,11 +43,11 @@ namespace POOPessoa
             {
                 return dataNascimento;
             }
-            public int getCPF()
+            public long getCPF()
             {
                 return CPF;
             }
-            public int getTelefone()
+            public long getTelefone()
             {
                 return telefone;
             }

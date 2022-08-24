@@ -22,10 +22,10 @@ namespace POOPessoa
                 pessoa.setDataNascimento(Console.ReadLine());
 
                 Console.Write("CPF: ");
-                pessoa.setCPF(int.Parse(Console.ReadLine()));
+                pessoa.setCPF(long.Parse(Console.ReadLine()));
 
                 Console.Write("Telefone: ");
-                pessoa.setTelefone(int.Parse((Console.ReadLine())));
+                pessoa.setTelefone(long.Parse(Console.ReadLine()));
 
                 Console.WriteLine();
                 Console.Write(pessoa.ToString());
